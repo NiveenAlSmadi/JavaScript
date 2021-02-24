@@ -15,7 +15,7 @@ while(flavor!= cakeFlavor){
 }
 alert('you get it ');
 var number=prompt('how mutch pieces  you want ??');
-  for (var photo=1 ; photo<=number && photo < 10 ; photo++) 
+  for (var photo=1 ; photo < number && photo < 10 ; photo++) 
 {
     document.write('<img src=" https://tse4.mm.bing.net/th?id=OIP.gDJSJXG8EaqidSJRock09QAAAA&pid=Api&P=0&w=300&h=300" />');  
       document.write(photo);
@@ -53,16 +53,10 @@ else if (cakeSize.toLocaleLowerCase()===medium){
  price(number);
 
 
- while(number){
-  document.write('<img src=" https://tse4.mm.bing.net/th?id=OIP.gDJSJXG8EaqidSJRock09QAAAA&pid=Api&P=0&w=300&h=300"/> ')
-    }
 
 
-for (var photo=1 ; photo<=Number && photo < 10 ; photo++) 
-{
-    document.write('<img src=" https://tse4.mm.bing.net/th?id=OIP.gDJSJXG8EaqidSJRock09QAAAA&pid=Api&P=0&w=300&h=300" />');  
-      document.write(photo);
-}
+  for (var number=prompt('how mutch pieces  you want ??'); parseInt(number)>=1;number-=1){
+ document.write('<img src="https://tse4.mm.bing.net/th?id=OIP.gDJSJXG8EaqidSJRock09QAAAA&pid=Api&P=0&w=300&h=300" />');}
 
 
 
@@ -70,8 +64,6 @@ for (var photo=1 ; photo<=Number && photo < 10 ; photo++)
 
 
  
-
-
 
 
 
