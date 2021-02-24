@@ -14,12 +14,7 @@ while(flavor!= cakeFlavor){
     cakeFlavor=prompt('not correct please try again ?');
 }
 alert('you get it ');
-var number=prompt('how mutch pieces  you want ??');
-  for (var photo=1 ; photo < number && photo < 10 ; photo++) 
-{
-    document.write('<img src=" https://tse4.mm.bing.net/th?id=OIP.gDJSJXG8EaqidSJRock09QAAAA&pid=Api&P=0&w=300&h=300" />');  
-      document.write(photo);
-}
+
 var cakeSize=prompt( 'what size do you prefer??');
 if(cakeSize.toLocaleLowerCase()===small)
 { console.log('you are in diet');}
